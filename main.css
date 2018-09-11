@@ -1,0 +1,71 @@
+@import 'animations.css';
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100%;
+  width:100%;
+}
+
+#container{
+
+}
+
+/*header styles*/
+.header{
+  height:575px;
+  background:blue;
+}
+.navigation{
+  height:75px;
+  background:#000;
+}
+.banner{
+  height:500px;
+  background:yellow;
+}
+.homebtn img{
+  height:50px;
+  width:50px;
+  border-radius:100%;
+}
+.homebtn{
+  position:fixed;
+  display:block;
+  border-radius:100%;
+  z-index:1;
+  height:50px;
+  width:50px;
+  margin:10px 0px 0px 10px;
+  background:#fff;
+}
+
+.homebtn:hover{
+  animation-name:changing-color;
+  animation-duration:15s;
+  animation-iteration-count:infinite;
+}
+/*end header styles*/
+
+/*main info styles*/
+.main_info{
+  height:1000px;
+  background:grey;
+}
+.aside{
+  height:1000px;
+  width:30%;
+  background:pink;
+}
+/*end main info styles*/
+
+/*footer styles*/
+.footer{
+  height:300px;
+  background:purple;
+}
+/*end footer styles*/
