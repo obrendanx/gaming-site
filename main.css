@@ -42,12 +42,40 @@ body{
   width:50px;
   margin:10px 0px 0px 10px;
   background:#fff;
+  right:15px;
 }
 
 .homebtn:hover{
   animation-name:changing-color;
-  animation-duration:15s;
+  animation-duration:5s;
   animation-iteration-count:infinite;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.navigation a{
+  display:block;
+  text-transform:uppercase;
+  color:#fff;
+  text-decoration:none;
+  text-align:center;
+  line-height: 75px;
+  font-size: 1vw;
+  font-family: 'Allan', Helvetica, Arial, sans-serif;
+}
+
+.navigation a:hover{
+  animation-name:changing-color-text;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+}
+
+.navigation li{
+  display:inline-block;
+  height:75px;
+  width:100px;
 }
 /*end header styles*/
 
